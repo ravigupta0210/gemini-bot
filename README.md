@@ -17,7 +17,7 @@ A real-time conversational voice bot powered by **Google Gemini API**, capable o
 
 ## 🌐 Demo
 
-[**🎥 [Watch the demo video](https://drive.google.com/your-demo-link)**](https://drive.google.com/file/d/1iX5qXoznH3kVCV89psWakYta8tlBA3AQ/view?usp=sharing)
+(https://drive.google.com/file/d/1iX5qXoznH3kVCV89psWakYta8tlBA3AQ/view?usp=sharing)
 
 ---
 
