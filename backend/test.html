@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Localhost Test</h1>
+    <button onclick="callPing()">Call /ping</button>
+    <pre id="output"></pre>
+
+    <script>
+      async function callPing() {
+        try {
+          const res = await fetch('http://localhost:5050/ping');
+          const data = await res.json();
+          document.getElementById('output').textContent = JSON.stringify(data);
+        } catch (err) {
+          document.getElementById('output').textContent = '❌ Failed: ' + err;
+        }
+      }
+    </script>
+  </body>
+</html>
